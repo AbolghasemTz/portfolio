@@ -6,9 +6,9 @@ import { SlSocialInstagram } from "react-icons/sl";
 import { RxOpenInNewWindow } from "react-icons/rx";
 import SectionTitle from "./SectionTitle";
 
-import reactProject from '../assets/images/reactShop.png'
-import nextProject from '../assets/images/next.png'
-import inventoryProject from '../assets/images/inventory.png'
+import reactProject from "../assets/images/reactShop.png";
+import nextProject from "../assets/images/next.png";
+import inventoryProject from "../assets/images/inventory.png";
 
 function Project() {
   return (
@@ -25,7 +25,7 @@ function Project() {
           <div className="flex flex-col lg:flex-row gap-6">
             <Link
               className="w-full lg:w-1/2 h-auto relative group:"
-              to="https://dainty-halva-1a7c34.netlify.app/"
+              to="https://shopping-react-abolghasemtz.vercel.app/"
               target="_blank"
             >
               <div>
@@ -45,8 +45,8 @@ function Project() {
               </h3>
               <p className="bg-[#112240] text-sm md:text-base p-2 mt:p-6 rounded-md">
                 I have created an online store with React and Context and I have
-                created Link registration form part with Formik an authentication
-                form.
+                created Link registration form part with Formik an
+                authentication form.
               </p>
               <ul className="flex items-center gap-2 md:gap-5 justify-between text-textDark text-xs md:text-sm">
                 <li>React</li>
@@ -68,7 +68,7 @@ function Project() {
                 </Link>
                 <Link
                   className="hover:text-textGreen duration-300"
-                  to="https://dainty-halva-1a7c34.netlify.app/"
+                  to="https://shopping-react-abolghasemtz.vercel.app/"
                   target="_blank"
                 >
                   <RxOpenInNewWindow />
@@ -100,9 +100,9 @@ function Project() {
               </p>
               <h3 className="text-2xl font-bold">Cars Inventory with React</h3>
               <p className="bg-[#112240] text-sm md:text-base p-2 mt:p-6 rounded-md">
-                I have created Link Cars Inventory with React and passed the data
-                to the components with props , "Not Responsive This is web App
-                example"
+                I have created Cars Inventory with React and passed the
+                data to the components with props , "Not Responsive This is web
+                App example"
               </p>
               <ul className="flex items-center gap-2 md:gap-5 justify-between text-textDark text-xs md:text-sm">
                 <li>React</li>
@@ -154,25 +154,28 @@ function Project() {
                 {/* ecommerce with Next Js And Redux */}
               </h3>
               <p className="bg-[#112240] text-sm md:text-base p-2 mt:p-6 rounded-md">
-                I have created Link ecommerce with next js and Redux , include
-                shopping cart , details page ,category page , blog .... i use
-                Api = strapi.io
+                This site is built with Next.js and Context, the user can
+                choose her plan and subscribe, and the forms are built with the
+                Formik library and have form authentication
               </p>
               <ul className="flex items-center gap-2 md:gap-5 justify-between text-textDark text-xs md:text-sm">
                 <li>Next</li>
-                <li>Redux</li>
+                <li>Context</li>
                 <li>Tailwind</li>
-                <li>SSG</li>
-                <li>SSR</li>
+                <li>formik</li>
               </ul>
               <div className="flex text-2xl gap-4">
-                <Link className="hover:text-textGreen duration-300"  to="https://github.com/AbolghasemTz/ecommerce-next">
+                <Link
+                  className="hover:text-textGreen duration-300"
+                  to="https://github.com/AbolghasemTz/fitness"
+                >
                   <TbBrandGithub />
                 </Link>
                 <Link className="hover:text-textGreen duration-300" to="#">
                   <SlSocialInstagram />
                 </Link>
-                <Link className="hover:text-textGreen duration-300" to="#">
+                <Link className="hover:text-textGreen duration-300"
+                 to="https://my-app-abolghasemtz.vercel.app/" target="_blank">
                   <RxOpenInNewWindow />
                 </Link>
               </div>
