@@ -2,7 +2,7 @@ import React from "react";
 import { AiFillThunderbolt } from "react-icons/ai";
 import SectionTitle from "./SectionTitle";
 
-import PersonPic from "../assets/images/me.jpg"
+import PersonPic from "../assets/images/me.jpg";
 
 function About(props) {
   return (
@@ -17,11 +17,12 @@ function About(props) {
       <div className="flex flex-col lg:flex-row gap-16">
         <div className="w-full lg:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            I'm Abolghasem, a year old self-taught Javascript Developer living
-            in Gorgan . I decided it was time for a change, so I started to
-            study Javascript before going into work. I quickly started to love
-            Javascript and I decided to take the risk and quit my job. I then
-            studied Javascript , I always want to learn more and do more. I'm
+            I'm Abolghasem, a 31 year old self-taught Javascript Developer
+            living in Gorgan and currently working at rewording.io as a Frontend
+            Engineer. In October 2019 I decided it was time for a change, so I
+            started to study Javascript before going into work. I quickly
+            started to love Javascript and in January 2020 I decided to take the
+            risk and quit my job. I always want to learn more and do more. I'm
             also a firm believer that we should never settle. I'm hard working,
             super curious, passionate, committed and a fast learner!
           </p>

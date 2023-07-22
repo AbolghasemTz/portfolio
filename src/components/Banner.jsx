@@ -18,7 +18,7 @@ function Banner(props) {
         <span className="text-textDark mt-2 ">I build things for the web.</span>
       </h1>
       <p className="text-base md:max-w-[650px] text-textDark font-medium">
-        I am a Junior web developer of experience in React. I have a
+        I am a web developer of experience in React. I have a
         strong foundation in front-end, I am skilled in creating user-friendly
         and responsive web applications using React & Next js and its ecosystem.
       </p>
