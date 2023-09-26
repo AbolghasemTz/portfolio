@@ -6,9 +6,9 @@ import { SlSocialInstagram } from "react-icons/sl";
 import { RxOpenInNewWindow } from "react-icons/rx";
 import SectionTitle from "./SectionTitle";
 
-import reactProject from "../assets/images/reactShop.png";
-import nextProject from "../assets/images/next.png";
-import inventoryProject from "../assets/images/inventory.png";
+import rewordProject from "../assets/images/rewordProject.png";
+import rick from "../assets/images/rick.png";
+import EcommerceNext from "../assets/images/EcommerceNext.png";
 
 function Project() {
   return (
@@ -25,13 +25,13 @@ function Project() {
           <div className="flex flex-col lg:flex-row gap-6">
             <Link
               className="w-full lg:w-1/2 h-auto relative group:"
-              to="https://shopping-react-abolghasemtz.vercel.app/"
+              to="https://rewording.io"
               target="_blank"
             >
               <div>
                 <img
-                  src={reactProject}
-                  alt="react-shopping"
+                  src={rewordProject}
+                  alt="rewording"
                   className="w-full h-full object-contain"
                 />
               </div>
@@ -40,24 +40,26 @@ function Project() {
               <p className="text-textGreen text-sm tracking-wide md:text-lg">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">
-                Shopping with React And Context
-              </h3>
+              <h3 className="text-2xl font-bold">Rewording.io</h3>
               <p className="bg-[#112240] text-sm md:text-base p-2 mt:p-6 rounded-md">
-                I have created an online store with React and Context and I have
-                created Link registration form part with Formik an
-                authentication form.
+                Rewording is a project to work with text, replacing words with
+                words. It consists of three parts. Paraphrasing: The user gives
+                the text and the site suggests other synonyms that the site
+                suggests. Summarize: The user gives a text and the site
+                summarizes it for him Plagiarism: It is very important for
+                students who write articles to recognize that the written
+                article has not been copied from somewhere else.
               </p>
               <ul className="flex items-center gap-2 md:gap-5 justify-between text-textDark text-xs md:text-sm">
-                <li>React</li>
-                <li>Context</li>
+                <li>Next.js</li>
+                <li>Redux</li>
                 <li>Tailwind</li>
                 <li>Formik</li>
                 <li>Responsive</li>
               </ul>
               <div className="flex text-2xl gap-4">
                 <Link
-                  to="https://github.com/AbolghasemTz/shopping-react"
+                  to="#"
                   target="_blank"
                   className="hover:text-textGreen duration-300"
                 >
@@ -68,7 +70,7 @@ function Project() {
                 </Link>
                 <Link
                   className="hover:text-textGreen duration-300"
-                  to="https://shopping-react-abolghasemtz.vercel.app/"
+                  to="https://rewording.io"
                   target="_blank"
                 >
                   <RxOpenInNewWindow />
@@ -88,7 +90,7 @@ function Project() {
             >
               <div>
                 <img
-                  src={inventoryProject}
+                  src={EcommerceNext}
                   alt="inventory car"
                   className="w-full h-full object-contain"
                 />
@@ -98,21 +100,25 @@ function Project() {
               <p className="text-textGreen text-sm md:text-lg tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Cars Inventory with React</h3>
+              <h3 className="text-2xl font-bold">Next.js 13 Ecommerce</h3>
               <p className="bg-[#112240] text-sm md:text-base p-2 mt:p-6 rounded-md">
-                I have created Cars Inventory with React and passed the
-                data to the components with props , "Not Responsive This is web
-                App example"
+                o This application is a project where the user can view some
+                products, register with a mobile number and add products to the
+                shopping cart and also manage the shopping cart. customer panel
+                that can manage their own orders and update their own profile
+                Admin panel that includes user management, user orders,
+                products, categories, discount code that includes creating and
+                deleting and updating
               </p>
               <ul className="flex items-center gap-2 md:gap-5 justify-between text-textDark text-xs md:text-sm">
-                <li>React</li>
-                <li>Props</li>
-                <li>css module</li>
+                <li>Next 13</li>
+                <li>React-query</li>
+                <li>Tailwinds</li>
               </ul>
               <div className="flex text-2xl gap-4">
                 <Link
                   className="hover:text-textGreen duration-300"
-                  to="https://github.com/AbolghasemTz/Inventory-cars-web-app"
+                  to="https://github.com/AbolghasemTz/Ecommerce-next13-"
                   target="_blank"
                 >
                   <TbBrandGithub />
@@ -120,10 +126,7 @@ function Project() {
                 <Link className="hover:text-textGreen duration-300" to="#">
                   <SlSocialInstagram />
                 </Link>
-                <Link
-                  className="hover:text-textGreen duration-300"
-                  to="https://cosmic-panda-0e6f4a.netlify.app/"
-                >
+                <Link className="hover:text-textGreen duration-300" to="#">
                   <RxOpenInNewWindow />
                 </Link>
               </div>
@@ -132,6 +135,10 @@ function Project() {
         </div>
         {/* project three */}
         <div className="w-full flex flex-col items- justify-center gap-10 mt-0 ">
+          <p className="text-textGreen text-sm md:text-lg tracking-wide">
+            Rickandmorty
+          </p>
+          <h3 className="text-2xl font-bold">React js test</h3>
           <div className="flex flex-col lg:flex-row gap-6">
             <Link
               className="w-full lg:w-1/2 h-auto relative group:"
@@ -140,7 +147,7 @@ function Project() {
             >
               <div>
                 <img
-                  src={nextProject}
+                  src={rick}
                   alt="next project"
                   className="w-full h-full object-contain"
                 />
@@ -154,28 +161,29 @@ function Project() {
                 {/* ecommerce with Next Js And Redux */}
               </h3>
               <p className="bg-[#112240] text-sm md:text-base p-2 mt:p-6 rounded-md">
-                This site is built with Next.js and Context, the user can
-                choose her plan and subscribe, and the forms are built with the
-                Formik library and have form authentication
+                This web app is built with React.js and Hooks, the user can add
+                and delete & search character ....
               </p>
               <ul className="flex items-center gap-2 md:gap-5 justify-between text-textDark text-xs md:text-sm">
-                <li>Next</li>
-                <li>Context</li>
-                <li>Tailwind</li>
-                <li>formik</li>
+                <li>React</li>
+                <li>Hooks</li>
+                <li>Css</li>
               </ul>
               <div className="flex text-2xl gap-4">
                 <Link
                   className="hover:text-textGreen duration-300"
-                  to="https://github.com/AbolghasemTz/fitness"
+                  to="https://github.com/AbolghasemTz/Movie-Charecter-App-react"
                 >
                   <TbBrandGithub />
                 </Link>
                 <Link className="hover:text-textGreen duration-300" to="#">
                   <SlSocialInstagram />
                 </Link>
-                <Link className="hover:text-textGreen duration-300"
-                 to="https://my-app-abolghasemtz.vercel.app/" target="_blank">
+                <Link
+                  className="hover:text-textGreen duration-300"
+                  to="https://65128848d5299b229ac59291--fascinating-arithmetic-0c966d.netlify.app/"
+                  target="_blank"
+                >
                   <RxOpenInNewWindow />
                 </Link>
               </div>

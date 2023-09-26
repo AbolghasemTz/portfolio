@@ -16,7 +16,7 @@ function Contact(props) {
         I'm currently looking for any new opportunities, my inbox is always
         open.
       </p>
-      <a href="mailto:a.taziki70@hamil.com">
+      <a href="mailto:abolghasemtazikijelini@gmail.com">
         <button
           className="w-40 h-14 border border-textGreen mt-6 text-sm 
             text-textGreen tracking-wide rounded-md hover:bg-hoverColor duration-300

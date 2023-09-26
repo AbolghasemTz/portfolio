@@ -17,14 +17,15 @@ function About(props) {
       <div className="flex flex-col lg:flex-row gap-16">
         <div className="w-full lg:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            I'm Abolghasem, a 31 year old self-taught Javascript Developer
-            living in Gorgan and currently working at rewording.io as a Frontend
-            Engineer. In October 2019 I decided it was time for a change, so I
-            started to study Javascript before going into work. I quickly
-            started to love Javascript and in January 2020 I decided to take the
-            risk and quit my job. I always want to learn more and do more. I'm
-            also a firm believer that we should never settle. I'm hard working,
-            super curious, passionate, committed and a fast learner!
+            I am Abulqasem, a 31-year-old self-taught JavaScript developer
+            living in Gorgan, and I worked at rewording.io as a front-end
+            engineer. For more experience, I decided to look for another
+            company. In October 2019, I decided it was time for a change, so I
+            started learning JavaScript before starting work. I quickly fell in
+            love with JavaScript and in January 2020 I decided to take a risk
+            and quit my job. I always want to learn more and do more. I also
+            believe that we should never settle. I am hard working, super
+            curious, passionate, committed and a learner!
           </p>
 
           <ul className="max-w-[450px] text-sm grid grid-cols-2 gap-2 mt-6">
